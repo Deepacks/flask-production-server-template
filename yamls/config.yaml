@@ -1,0 +1,7 @@
+app:
+  name: FlaskTemplate
+  salt: var#_salt
+mongo:
+  host: mongodb://var#_mongo_user:var#_mongo_password@localhost:var#_mongo_port/var#_mongo_db?authSource=var#_mongo_auth_db
+jwt:
+  secret: var#_jwt_secret

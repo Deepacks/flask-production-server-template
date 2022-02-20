@@ -8,7 +8,7 @@ from backend.routes import add_routes_to_app
 db = MongoEngine()
 
 
-def make_app(config_file="./yamls/db.yaml"):
+def make_app(config_file="./yamls/config.yaml"):
 
     with open(config_file, "r") as config:
         read_config = yaml.load(config, Loader=yaml.FullLoader)

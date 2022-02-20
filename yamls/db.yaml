@@ -1,9 +1,0 @@
-app:
-  name: FlaskTemplate
-  salt: insertsalt
-mongo:
-  host: mongodb://sc_user:290701@localhost:27017/streakcloud?authSource=streakcloud
-jwt:
-  secret: okthisisepic
-
-# 178.62.73.168
